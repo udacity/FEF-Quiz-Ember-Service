@@ -36,5 +36,9 @@ export default Ember.Service.extend({
         price: 0.08
       }
     }
+  },
+
+  getRedBricks() {
+    return this.get('bricks').red;
   }
 });
