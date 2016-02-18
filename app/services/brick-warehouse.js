@@ -38,6 +38,10 @@ export default Ember.Service.extend({
     }
   },
 
+  getBricks() {
+    return this.get('bricks');
+  },
+
   getRedBricks() {
     return this.get('bricks').red;
   }
