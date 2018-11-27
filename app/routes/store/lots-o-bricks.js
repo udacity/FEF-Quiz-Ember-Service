@@ -23,6 +23,6 @@ export default Ember.Route.extend({
           price: 0.08
         }
       }
-    }
+    };
   }
 });
